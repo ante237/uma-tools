@@ -1,0 +1,6513 @@
+{
+    "right-handed_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "right-handed_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "rotation": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "right-handed_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "right-handed_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "rotation": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "left-handed_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "left-handed_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "rotation": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "left-handed_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "left-handed_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "rotation":
+                {
+                    "value": 2,
+                    "operator": "=="
+                } 
+            }
+        }
+    },
+    "tokyo-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "tokyo-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10006,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "tokyo-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "tokyo-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10006,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "nakayama-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "nakayama-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10005,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "nakayama-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "nakayama-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10005,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hanshin-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "hanshin-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10009,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hanshin-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "hanshin-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10009,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "kyoto-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "kyoto-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10008,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "kyoto-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "kyoto-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10008,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "chukyo-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "chukyo-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10007,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "chukyo-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "chukyo-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10007,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sapporo-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "sapporo-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10001,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sapporo-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "sapporo-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10001,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hakodate-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "hakodate-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10002,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hakodate-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "hakodate-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10002,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fukushima-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "fukushima-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10004,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fukushima": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "fukushima-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10004,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "niigata-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "niigata-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10003,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "niigata-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "niigata-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10003,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "kokura-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "kokura-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10010,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "kokura-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "kokura-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10010,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "oi-racecourse_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "oi-racecourse_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10101,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "oi-racecourse_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "oi-racecourse_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "track_id": {
+                    "value": 10101,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "standard-distance_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "standard-distance_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "is_basis_distance": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "standard-distance_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "standard-distance_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "is_basis_distance": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "non-standard-distance_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "non-standard-distance_2",
+        "skill": {
+            "active": {
+                "stamina_gain": 40
+            },
+            "conditions": {
+                "is_basis_distance": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "non-standard-distance_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "non-standard-distance_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_gain": 60
+            },
+            "conditions": {
+                "is_basis_distance": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "firm-conditions_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "firm-conditions_2",
+        "skill": {
+            "active": {
+                "power_gain": 40
+            },
+            "conditions": {
+                "ground_condition": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "firm-conditions_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "firm-conditions_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "power_gain": 60
+            },
+            "conditions": {
+                "ground_condition": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "wet-conditions_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "wet-conditions_2",
+        "skill": {
+            "active": {
+                "power_gain": 40
+            },
+            "conditions": {
+                "ground_condition": {
+                    "value": [2, 3, 4],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "wet-conditions_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "wet-conditions_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "power_gain": 60
+            },
+            "conditions": {
+                "ground_condition": {
+                    "value": [2, 3, 4],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "spring-runner_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "spring-runner_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "season": {
+                    "value": [1, 5],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "spring-runner_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "spring-runner_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "season": {
+                    "value": [1, 5],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "summer-runner_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "summer-runner_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "season": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "summer-runner_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "summer-runner_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "season": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fall-runner_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "fall-runner_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "season": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fall-runner_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "fall-runner_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "season": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "winter-runner_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "winter-runner_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "season": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "winter-runner_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "winter-runner_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "season": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sunny-days_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "sunny-days_2",
+        "skill": {
+            "active": {
+                "guts_gain": 40
+            },
+            "conditions": {
+                "weather": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sunny-days_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "sunny-days_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "guts_gain": 60
+            },
+            "conditions": {
+                "weather": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "cloudy-days_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "cloudy-days_2",
+        "skill": {
+            "active": {
+                "guts_gain": 40
+            },
+            "conditions": {
+                "weather": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "cloudy-days_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "cloudy-days_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "guts_gain": 60
+            },
+            "conditions": {
+                "weather": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "rainy-days_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "rainy-days_2",
+        "skill": {
+            "active": {
+                "guts_gain": 40
+            },
+            "conditions": {
+                "weather": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "rainy-days_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "rainy-days_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "guts_gain": 60
+            },
+            "conditions": {
+                "weather": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "snowy-days_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "snowy-days_2",
+        "skill": {
+            "active": {
+                "guts_gain": 40
+            },
+            "conditions": {
+                "weather": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "snowy-days_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "snowy-days_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "guts_gain": 60
+            },
+            "conditions": {
+                "weather": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "inner-post-proficiency_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "inner-post-proficiency_2",
+        "skill": {
+            "active": {
+                "wit_gain": 40
+            },
+            "conditions": {
+                "post_number": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "inner-post-proficiency_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "inner-post-proficiency_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "wit_gain": 60
+            },
+            "conditions": {
+                "post_number": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "outer-post-proficiency_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "outer-post-proficiency_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "post_number": {
+                    "value": 6,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "outer-post-proficiency_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "outer-post-proficiency_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "post_number": {
+                    "value": 6,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "maverick_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "maverick_2",
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "running_style_count_same": {
+                    "value": 1,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "maverick_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "maverick_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 80
+            },
+            "conditions": {
+                "running_style_count_same": {
+                    "value": 1,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "competetive-spirit_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "competetive-spirit_2",
+        "skill": {
+            "active": {
+                "power_gain": 40
+            },
+            "conditions": {
+                "running_style_count_same_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "competetive-spirit_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "competetive-spirit_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "power_gain": 60
+            },
+            "conditions": {
+                "running_style_count_same_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "target-in-sight_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "target-in-sight_2",
+        "skill": {
+            "active": {
+                "guts_gain": 40
+            },
+            "conditions": {
+                "running_style_equal_popularity_one": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "target-in-sight_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "target-in-sight_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "guts_gain": 60
+            },
+            "conditions": {
+                "running_style_equal_popularity_one": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "long-shot_1": {
+        "skill_points": 90,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "long-shot_2",
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "popularity": {
+                    "value": 4,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "long-shot_2": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": "long-shot_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60
+            },
+            "conditions": {
+                "popularity": {
+                    "value": 4,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "corner-adept": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "professor-of-curvature",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "professor-of-curvature": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "corner-adept",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "corner-acceleration": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "corner-connoisseur",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "corner-connoisseur": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "corner-acceleration",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "corner-recovery": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "swinging-maestro",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": [1, 2, 3, 4],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "swinging-maestro": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "corner-recovery",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "all_corner_random": {
+                    "value": [1, 2, 3, 4],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "straightaway-adept": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "beeline-burst",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "beeline-burst": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "straightaway-adept",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "straightaway-acceleration": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "rushing-gale",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "rushing-gale": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "straightaway-acceleration",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "straightaway-recovery": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "breath-of-fresh-air",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "breath-of-fresh-air": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "straightaway-recovery",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "focus": {
+        "skill_points": 140,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "concentration",
+        "skill": {
+            "active": {
+                "reaction_time": 0.9
+            },
+            "conditions": {
+                "always": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "concentration": {
+        "skill_points": 140,
+        "eval_points": 394,
+        "upgrades_from": "focus",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "reaction_time": 0.4
+            },
+            "conditions": {
+                "always": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "lay-low": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "iron-will",
+        "skill": {
+            "active": {
+                "duration": 2.0,
+                "stamina_recovery": 0.015,
+                "lane-speed": 0.015
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "<="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                },
+                "blocked_frong_continuetime": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "iron-will": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "lay-low",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.0,
+                "stamina_recovery": 0.055,
+                "lane-speed": 0.035
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "<="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                },
+                "blocked_front_continuetime": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "prudent-positioning": {
+        "skill_points": 120,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "center-stage",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.035
+            },
+            "conditions": {
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "center-stage": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "prudent-positioning",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.045
+            },
+            "conditions": {
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "ramp-up": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "its-on",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 1.8,
+                "target_speed": 0.015
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "its-on": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "ramp-up",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 1.8,
+                "target_speed": 0.035
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime":{
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "pace-strategy": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "indomitable",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime":{
+                    "value": 0,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "indomitable": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "pace-strategy",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime":{
+                    "value": 0,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "calm-in-a-crowd": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "unruffled",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "is_surrounded":{
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "unruffled": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "calm-in-a-crowd",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "is_surrounded":{
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "nimble-navigator": {
+        "skill_points": 150,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "no-stopping-me",
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.2,
+                "lane-speed": 0.005
+            },
+            "conditions": {
+                "infront_near_lane_time": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_lastspurt":{
+                    "value": 1,
+                    "operator": "=="
+                },
+                "hp_per": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "no-stopping-me": {
+        "skill_points": 150,
+        "eval_points": 394,
+        "upgrades_from": "nimble-navigator",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "acceleration": 0.4,
+                "lane-speed": 0.025
+            },
+            "conditions": {
+                "infront_near_lane_time": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_lastspurt":{
+                    "value": 1,
+                    "operator": "=="
+                },
+                "hp_per": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "go-with-the-flow": {
+        "skill_points": 120,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "lane-legerdemain",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.025
+            },
+            "conditions": {
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "lane-legerdemain": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "go-with-the-flow",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.035
+            },
+            "conditions": {
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "homestretch-haste": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "in-body-and-mind",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "in-body-and-mind": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "homestretch-haste",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "early-lead": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "taking-the-lead",
+        "skill": {
+            "active": {
+                "duration": 1.2,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "taking-the-lead": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "early-lead",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 1.2,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fast-paced": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "escape-artist",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "escape-artist": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "fast-paced",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "final-push": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "unrestrained",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "is_finalcorner_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "unrestrained": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "final-push",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "is_finalcorner_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "stamina-to-spare": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "calm-and-collected",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "calm-and-collected": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "stamina-to-spare",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "preferred-position": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "race-planner",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "race-planner": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "preferred-position",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "prepared-to-pass": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "speed-star",
+        "skill": {
+            "active": {
+                "duration": 1.8,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_finalcorner_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "speed-star": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "prepared-to-pass",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 1.8,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_finalcorner_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "position-pilfer": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "fast-and-furious",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "fast-and-furious": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "position-pilfer",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "slick-surge": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "on-your-left",
+        "skill": {
+            "active": {
+                "duration": 1.8,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "on-your-left": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "slick-surge",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 1.8,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "outer-swell": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "rising-dragon",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "!="
+                },
+                "is_behind_in": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "rising-dragon": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "outer-swell",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "!="
+                },
+                "is_behind_in": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "standing-by": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "sleeping-lion",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "distance_diff_rate": {
+                    "value": 75,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "sleeping-lion": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "standing-by",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "distance_diff_rate": {
+                    "value": 75,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "masterful-gambit": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "sturm-und-drang",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "preconditions": {
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "distance_diff_rate": {
+                    "value": 50,
+                    "operator": ">="
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sturm-und-drang": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "masterful-gambit",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "preconditions": {
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "distance_diff_rate": {
+                    "value": 50,
+                    "operator": ">="
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_firsthalf_random": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "strightaway spurt": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "encroaching-shadow",
+        "skill": {
+            "active": {
+                "duration": 0.9,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "encroaching-shadow": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "strightaway spurt",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 0.9,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_lastspurt": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sprinting-gear": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "turbo-sprint",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "turbo-sprint": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "sprinting-gear",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "wait-and-see": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "stamina_recovery": 0.015,
+                "acceleration": 0.1
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "gap-closer": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "blinding-flash",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15,
+                "acceleration": 0.05
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "blinding-flash": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "gap-closer",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35,
+                "acceleration": 0.1
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "productive-plan": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "mile-maven",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "mile-maven": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "productive-plan",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "watchful-eye": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "keen-eye",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "stamina_recovery": 0.015,
+                "debuff": {
+                    "current_speed": -0.05,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "keen-eye": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "watchful-eye",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "stamina_recovery": 0.055,
+                "debuff": {
+                    "current_speed": -0.2,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "updrafters": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "furious-feat",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "furious-feat": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "updrafters",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "rosy-outlook": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "trackblazer",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "trackblazer": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "rosy-outlook",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "up-tempo": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "killer-tunes",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "killer-tunes": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "up-tempo",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "steadfast": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "unyielding",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15,
+                "acceleration": 0.05
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "overtake_target_time": {
+                    "value": 2,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "unyielding": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "steadfast",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35,
+                "acceleration": 0.1
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "overtake_target_time": {
+                    "value": 2,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "deep-breaths": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "cooldown",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "cooldown": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "deep-breaths",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "inside-scoop": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "innate-experience",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "!="
+                },
+                "lane_type": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "innate-experience": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "inside-scoop",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_finalcorner": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "corner": {
+                    "value": 0,
+                    "operator": "!="
+                },
+                "lane_type": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "extra-tank": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "adrenaline-rush",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "hp_per": {
+                    "value": 30,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "adrenaline-rush": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "extra-tank",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 1.8,
+                "stamina_recovery": 0.055,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "hp_per": {
+                    "value": 30,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "trick-front": {
+        "skill_points": 140,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,    
+                    "target": ["behind", "panicked"]
+                }
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                },
+                "temptation_opponent_count_behind": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "trick-rear": {
+        "skill_points": 140,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": ["ahead", "panicked"]
+                }
+            },
+            "conditions": {
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                },
+                "temptation_opponent_count_behind": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "frenzied-front-runners": {
+        "skill_points": 130,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "panic_duration": 5,
+                    "target": "panicked front runners"
+                }
+            },
+            "conditions": {
+                "running_style_temptation_opponent_count_nige": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_temptation": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "frenzied-pace-chasers": {
+        "skill_points": 130,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "panic_duration": 5,
+                    "target": "panicked pace chasers"
+                }
+            },
+            "conditions": {
+                "running_style_temptation_opponent_count_senko": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_temptation": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "frenzied-late-surgers": {
+        "skill_points": 130,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "panic_duration": 5,
+                    "target": "panicked late surgers"
+                }
+            },
+            "conditions": {
+                "running_style_temptation_opponent_count_sashi": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_temptation": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "frenzied-end-closers": {
+        "skill_points": 130,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "panic_duration": 5,
+                    "target": "panicked end closers"
+                }
+            },
+            "conditions": {
+                "running_style_temptation_opponent_count_oikomi": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "is_temptation": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "subdued-front-runners": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "front runners"
+                }
+            },
+            "conditions": {
+                "running_style_count_nige_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "flustered-front-runners": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "front runners"
+                }
+            },
+            "conditions": {
+                "running_style_count_nige_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hesitant-front-runners": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "front runners"
+                }
+            },
+            "conditions": {
+                "running_style_count_nige_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "subdued-pace-chasers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "pace chasers"
+                }
+            },
+            "conditions": {
+                "running_style_count_senko_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "flustered-pace-chasers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "pace chasers"
+                }
+            },
+            "conditions": {
+                "running_style_count_senko_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hesitant-pace-chasers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "pace chasers"
+                }
+            },
+            "conditions": {
+                "running_style_count_senko_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "subdued-late-surgers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "late surgers"
+                }
+            },
+            "conditions": {
+                "running_style_count_sashi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "flustered-late-surgers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "late surgers"
+                }
+            },
+            "conditions": {
+                "running_style_count_sashi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hesitant-late-surgers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "late surgers"
+                }
+            },
+            "conditions": {
+                "running_style_count_sashi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "subdued-end-closers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "end closers"
+                }
+            },
+            "conditions": {
+                "running_style_count_oikomi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "flustered-end-closers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "end closers"
+                }
+            },
+            "conditions": {
+                "running_style_count_oikomi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hesitant-end-closers": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "end closers"
+                }
+            },
+            "conditions": {
+                "running_style_count_oikomi_otherself": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sprint-straightaways_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "sprint-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sprint-straightaways_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "sprint-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sprint-corners_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "sprint-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sprint-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "sprint-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "huge-lead": {
+        "skill_points": 170,
+        "eval_points": 262,
+        "upgrades_from": null,
+        "upgrades_to": "staggering-lead",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "bashin_diff_behind": {
+                    "value": 3,
+                    "operator": ">="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "staggering-lead": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "huge-lead",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "bashin_diff_behind": {
+                    "value": 3,
+                    "operator": ">="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "countermeasure": {
+        "skill_points": 160,
+        "eval_points": 262,
+        "upgrades_from": null,
+        "upgrades_to": "plan-x",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 2,
+                    "operator": ">="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "plan-x": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "countermeasure",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_laterhalf_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 2,
+                    "operator": ">="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "meticoulous-measures": {
+        "skill_points": 140,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "perfect-prep",
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "lane-speed": 0.025,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "perfect-prep": {
+        "skill_points": 140,
+        "eval_points": 294,
+        "upgrades_from": "meticoulous-measures",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "lane-speed": 0.035,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "intimidate": {
+        "skill_points": 170,
+        "eval_points": 262,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.2,
+                    "target": "behind"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "stop-right-there": {
+        "skill_points": 170,
+        "eval_points": 262,
+        "upgrades_from": null,
+        "upgrades_to": "youve-got-no-shot",
+        "skill": {
+            "active": {
+                "duration": 1.2,
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "acceleration": -0.05,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "youve-got-no-shot": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "stop-right-there",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 1.2,
+                "debuff": {
+                    "stamina_recovery": -0.03,
+                    "acceleration": -0.2,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "mile-straightaways_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "mile-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "mile-straightaways_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "mile-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "mile-corners_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "mile-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "mile-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "mile-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "shifting-gears": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "changing-gears",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "changing-gears": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "shifting-gears",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "acceleration": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "step-on-the-gas",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "distance_rate": {
+                    "value": 50,
+                    "operator": ">="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "step-on-the-gas": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "acceleration",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "distance_rate": {
+                    "value": 50,
+                    "operator": ">="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "unyielding-spirit": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "big-sisterly",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_overtake": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "big-sisterly": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "unyielding-spirit",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_overtake": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "speed-eater": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "greed-for-speed",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target_speed": 0.15,
+                    "target": "behind"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "greed-for-speed": {
+        "skill_points": 160,
+        "eval_points": 461,
+        "upgrades_from": "speed-eater",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.2,
+                    "target_speed": 0.25,
+                    "target": "behind"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 3,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "opening-gambit": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "battle-formation",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "acceleration": -0.1,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                },
+                "accumulatetime": {
+                    "value": 3,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "battle-formation": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "opening-gambit",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "acceleration": -0.3,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                },
+                "accumulatetime": {
+                    "value": 3,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "medium-straightaways_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "medium-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "medium-straightaways_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "medium-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "medium-corners_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "medium-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "medium-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "medium-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hawkeye": {
+        "skill_points": 110,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "clairvoyance",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "clairvoyance": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "hawkeye",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "thunderbolt-step": {
+        "skill_points": 140,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "lightning-step",
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "lane-speed": 0.025,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "lightning-step": {
+        "skill_points": 140,
+        "eval_points": 394,
+        "upgrades_from": "thunderbolt-step",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "lane-speed": 0.03,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "soft-step": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "miraculous-step",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "miraculous-step": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "soft-step",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "tether": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "dominator",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "dominator": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "tether",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.25,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "murmur": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "mystifying-murmur",
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "blocked_front_continuetime": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "mystifying-murmur": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "murmur",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.03,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "blocked_front_continuetime": {
+                    "value": 1,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "long-straightaways_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "long-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "long-straightaways_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "long-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "long-corners_1": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "long-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "long-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "long-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "keeping-the-lead": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "vanguard-spirit",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "bashin_diff_behind": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "vanguard-spirit": {
+        "skill_points": 110,
+        "eval_points": 508,
+        "upgrades_from": "keeping-the-lead",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "bashin_diff_behind": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "order": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "passing-pro": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_overtake": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "pressure": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "overwhelming-pressure",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15,
+                "acceleration": 0.05
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "overwhelming-pressure": {
+        "skill_points": 160,
+        "eval_points": 508,
+        "upgrades_from": "pressure",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.35,
+                "acceleration": 0.1
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "change_order_onetime": {
+                    "value": 0,
+                    "operator": "<"
+                }
+            }
+        }
+    },
+    "stamina-eater": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "stamina-siphon",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015,
+                "debuff": {
+                    "stamina_recovery": -0.005,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "stamina-siphon": {
+        "skill_points": 160,
+        "eval_points": 461,
+        "upgrades_from": "stamina-eater",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.035,
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "smoke-screen": {
+        "skill_points": 110,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "illusionist",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "visibility_up": -5,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "illusionist": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "smoke-screen",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "visibility_up": -10,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "distance_type": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "front-runner-straightaways_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "front-runner-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "front-runner-straightaways_2": {
+        "skill_points": 140,
+        "eval_points": 262,
+        "upgrades_from": "front-runner-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "front-runner-corners_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "front-runner-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "front-runner-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "front-runner-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "dodging-danger": {
+        "skill_points": 110,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": "sixth-sense",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.025,
+                "lane-target": 0.5
+            },
+            "conditions": [
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 0,
+                        "operator": "=="
+                    },
+                    "blocked_front_continuetime": {
+                        "value": 1,
+                        "operator": ">="
+                    }
+                },
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 0,
+                        "operator": "=="
+                    },
+                    "blocked_side_continuetime": {
+                        "value": 1,
+                        "operator": ">="
+                    }
+                }
+            ]
+        }
+    },
+    "sixth-sense": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "dodging-danger",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "lane-speed": 0.035,
+                "lane-target": 0.5
+            },
+            "conditions": [
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 0,
+                        "operator": "=="
+                    },
+                    "blocked_front_continuetime": {
+                        "value": 1,
+                        "operator": ">="
+                    }
+                },
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 0,
+                        "operator": "=="
+                    },
+                    "blocked_side_continuetime": {
+                        "value": 1,
+                        "operator": ">="
+                    }
+                }
+            ]
+        }
+    },
+    "leaders-pride": {
+        "skill_points": 110,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": [
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 1,
+                        "operator": "<="
+                    },
+                    "change_order_onetime": {
+                        "value": 0,
+                        "operator": ">"
+                    },
+                    "accumulatetime": {
+                        "value": 5,
+                        "operator": ">="
+                    }
+                },
+                {
+                    "running_style": {
+                        "value": 1,
+                        "operator": "=="
+                    },
+                    "phase": {
+                        "value": 1,
+                        "operator": "<="
+                    },
+                    "blocked_side_continuetime": {
+                        "value": 0,
+                        "operator": ">"
+                    },
+                    "accumulatetime": {
+                        "value": 5,
+                        "operator": ">="
+                    }
+                }
+            ]
+        }
+    },
+    "moxie": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "restless",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "slope": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "restless": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "moxie",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "slope": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "second-wind": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "reignition",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2,
+                "stamina_recovery": -0.02
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "reignition": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "second-wind",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.4,
+                "stamina_recovery": -0.02
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "restart": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "acceleration": -0.1,
+                    "target": "ahead"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 0,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 2,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "pace-chaser-straightaways_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "pace-chaser-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "pace-chaser-straightaways_2": {
+        "skill_points": 140,
+        "eval_points": 262,
+        "upgrades_from": "pace-chaser-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "pace-chaser-corners_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "pace-chaser-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "pace-chaser-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "pace-chaser-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "shrewd-step": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "technician",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "technician": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "shrewd-step",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "straight-descent": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "determined-descent",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "down_slope_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "determined-descent": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "straight-descent",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "down_slope_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "hydrate": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "gourmand",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "gourmand": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "hydrate",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "tactical-tweak": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "shatterproof",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "shatterproof": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "tactical-tweak",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "disorient": {
+        "skill_points": 110,
+        "eval_points": 85,
+        "upgrades_from": null,
+        "upgrades_to": "dazzling-disorientation",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "visibility_up": -3,
+                    "target": "behind"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "dazzling-disorientation": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "disorient",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "visibility_up": -,
+                    "target": "behind"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": "<="
+                }
+            }
+        }
+    },
+    "late-surger-straightaways_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "late-surger-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "late-surger-straightaways_2": {
+        "skill_points": 140,
+        "eval_points": 262,
+        "upgrades_from": "late-surger-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "late-surger-corners_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "late-surger-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "late-surger-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "late-surger-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "fighter": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "hard-worker",
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_overtake": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "hard-worker": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "fighter",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 4.0,
+                "acceleration": 0.3
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "is_overtake": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "1500000CC": {
+        "skill_points": 120,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "15000000CC",
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "up_slope_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "15000000CC": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "1500000CC",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 2.4,
+                "target_speed": 0.35
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "up_slope_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "a-small-breather": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "relax",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "relax": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "a-small-breather",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 40,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "studious": {
+        "skill_points": 120,
+        "eval_points": 85,
+        "upgrades_from": null,
+        "upgrades_to": "the-bigger-picture",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "the-bigger-picture": {
+        "skill_points": 120,
+        "eval_points": 334,
+        "upgrades_from": "studious",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "sharp-gaze": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "all-seeing-eyes",
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.01,
+                    "target": "fov"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "all-seeing-eyes": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "sharp-gaze",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "debuff": {
+                    "stamina_recovery": -0.03,
+                    "target": "fov"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "end-closer-straightaways_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "end-closer-straightaways_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "end-closer-straightaways_2": {
+        "skill_points": 140,
+        "eval_points": 262,
+        "upgrades_from": "end-closer-straightaways_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.25
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "straight_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "end-closer-corners_1": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "end-closer-corners_2",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "end-closer-corners_2": {
+        "skill_points": 110,
+        "eval_points": 262,
+        "upgrades_from": "end-closer-corners_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "all_corner_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "i-can-see-right-through-you": {
+        "skill_points": 110,
+        "eval_points": 85,
+        "upgrades_from": null,
+        "upgrades_to": "the-coast-is-clear",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "the-coast-is-clear": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "i-can-see-right-through-you",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "is_move_lane": {
+                    "value": [1, 2],
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "after-school-stroll": {
+        "skill_points": 170,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "go-home-specialist",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "slope": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "go-home-specialist": {
+        "skill_points": 170,
+        "eval_points": 508,
+        "upgrades_from": "after-school-stroll",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "slope": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "levelheaded": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "serenity",
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "infront_near_lane_time": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "serenity": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "levelheaded",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.055
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "infront_near_lane_time": {
+                    "value": 1,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "strategist": {
+        "skill_points": 110,
+        "eval_points": 85,
+        "upgrades_from": null,
+        "upgrades_to": "crusader",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "crusader": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "strategist",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "visibility_up": 15
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order_rate": {
+                    "value": 50,
+                    "operator": ">"
+                }
+            }
+        }
+    },
+    "intense-gaze": {
+        "skill_points": 180,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": "petrifying-gaze",
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.15,
+                    "target": "fov"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 2,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "petrifying-gaze": {
+        "skill_points": 180,
+        "eval_points": 508,
+        "upgrades_from": "intense-gaze",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "debuff": {
+                    "current_speed": -0.25,
+                    "target": "fov"
+                }
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                },
+                "phase_random": {
+                    "value": 2,
+                    "operator": "=="
+                },
+                "order": {
+                    "value": 2,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "front-runner-savy_1": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "front-runner-savy_2",
+        "skill": {
+            "active": {
+                "wit_gain": 40,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "front-runner-savy_2": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": "front-runner-savy_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "wit_gain": 60,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "pace-chaser-savy_1": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "pace-chaser-savy_2",
+        "skill": {
+            "active": {
+                "wit_gain": 40,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "pace-chaser-savy_2": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": "pace-chaser-savy_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "wit_gain": 60,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 2,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "late-surger-savy_1": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "late-surger-savy_2",
+        "skill": {
+            "active": {
+                "wit_gain": 40,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "late-surger-savy_2": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": "late-surger-savy_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "wit_gain": 60,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 3,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "end-closer-savy_1": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "end-closer-savy_2",
+        "skill": {
+            "active": {
+                "wit_gain": 40,
+                "visibility_up": 5
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "end-closer-savy_2": {
+        "skill_points": 130,
+        "eval_points": 217,
+        "upgrades_from": "end-closer-savy_1",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "wit_gain": 60,
+                "visibility_up": 10
+            },
+            "conditions": {
+                "running_style": {
+                    "value": 4,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "lucky-seven": {
+        "skill_points": 110,
+        "eval_points": 174,
+        "upgrades_from": null,
+        "upgrades_to": "super-lucky-seven",
+        "skill": {
+            "active": {
+                "speed_gain": 40,
+                "stamina_gain": 40,
+                "power_gain": 40
+            },
+            "conditions": {
+                "random_lot": {
+                    "value": 50,
+                    "operator": "=="
+                },
+                "post_number": {
+                    "value": 7,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "super-lucky-seven": {
+        "skill_points": 110,
+        "eval_points": 334,
+        "upgrades_from": "lucky-seven",
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 60,
+                "stamina_gain": 60,
+                "power_gain": 60
+            },
+            "conditions": {
+                "random_lot": {
+                    "value": 50,
+                    "operator": "=="
+                },
+                "post_number": {
+                    "value": 7,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "trippe-7s": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "remain_distance": {
+                    "value": [778, 776],
+                    "operator": ["<=", ">="]
+                }
+            }
+        }
+    },
+    "highlander": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "up_slope_random": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "uma-stan": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "near_count": {
+                    "value": 3,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "groundwork": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "acceleration": 0.2
+            },
+            "conditions": {
+                "activate_count_start": {
+                    "value": 3,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "tail-held-high": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "activate_count_middle": {
+                    "value": 3,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "shake-it-out": {
+        "skill_points": 100,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "stamina_recovery": 0.015
+            },
+            "conditions": {
+                "activate_count_end_after": {
+                    "value": 3,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "sympathy": {
+        "skill_points": 70,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "same_skill_horse_count": {
+                    "value": 5,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "lone-wolf": {
+        "skill_points": 70,
+        "eval_points": 129,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "speed_gain": 40
+            },
+            "conditions": {
+                "same_skill_horse_count": {
+                    "value": 1,
+                    "operator": "=="
+                }
+            }
+        }
+    },
+    "slipstream": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "infront_near_lane_time": {
+                    "value": 3,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    "playtimes-over": {
+        "skill_points": 160,
+        "eval_points": 217,
+        "upgrades_from": null,
+        "upgrades_to": null,
+        "skill": {
+            "active": {
+                "cooldown": 30,
+                "duration": 3.0,
+                "target_speed": 0.15
+            },
+            "conditions": {
+                "behind_near_lane_time": {
+                    "value": 3,
+                    "operator": ">="
+                },
+                "accumulatetime": {
+                    "value": 10,
+                    "operator": ">="
+                }
+            }
+        }
+    },
+    
+}
