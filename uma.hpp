@@ -13,7 +13,7 @@ public:
     char sprintApt, char mileApt, char mediumApt, char longApt, 
     char frontApt, char paceApt, char lateApt, char endApt)
     :
-    mood(mood), style(style), spd(spd), sta(sta), gut(gut), wit(wit),
+    mood(mood), style(style), spd(spd), sta(sta), pow(pow), gut(gut), wit(wit),
     turfApt(turfApt), dirtApt(dirtApt),
     sprintApt(sprintApt), mileApt(mileApt), mediumApt(mediumApt), longApt(longApt),
     frontApt(frontApt), paceApt(paceApt), lateApt(lateApt), endApt(endApt)
@@ -31,7 +31,7 @@ public:
     }
 
     /**
-     * @brief Get the Stats object
+     * @brief Get the Stats of the uma, modified by mood
      * 
      * @return int* with indexation
      * 0: spd,
@@ -42,7 +42,9 @@ public:
      */
     array<int, 5> getStats()
     {
-        return {this->spd, this->sta, this->pow, this->gut, this->wit};
+        double mod = getMoodMult();
+        return {this->spd * mod, this->sta * mod, this->pow * mod, 
+            this->gut * mod, this->wit * mod};
     }
 
     /**
@@ -75,13 +77,13 @@ public:
         return this->style;
     }
 
-    void setTrackApt(char turf, char dirt)
+    void setSurfaceApt(char turf, char dirt)
     {
         if(checkValidApt(turf)) this->turfApt = turf;
         if(checkValidApt(dirt)) this->dirtApt = dirt;
     }
     
-    array<char, 2> getTrackApt()
+    array<char, 2> getSurfaceApt()
     {
         return {this->turfApt, this->dirtApt};
     }
@@ -173,7 +175,7 @@ public:
         case 'g':
             return true;
         default:
-            return false;;
+            return false;
         }
     }
 
