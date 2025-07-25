@@ -5,6 +5,26 @@
 
 using namespace std;
 
+struct umaStruct {
+        int mood;
+        int style;
+        int spd;
+        int sta;
+        int pow;
+        int gut;
+        int wit;
+        char turfApt;
+        char dirtApt;
+        char sprintApt;
+        char mileApt;
+        char mediumApt;
+        char longApt;
+        char frontApt;
+        char paceApt;
+        char lateApt;
+        char endApt;
+    };
+
 class Uma
 {
 public:
@@ -18,7 +38,16 @@ public:
     sprintApt(sprintApt), mileApt(mileApt), mediumApt(mediumApt), longApt(longApt),
     frontApt(frontApt), paceApt(paceApt), lateApt(lateApt), endApt(endApt)
     {}
-    
+
+    Uma(umaStruct& umaS)
+    :
+    mood(umaS.mood), style(umaS.style), 
+    spd(umaS.spd), sta(umaS.sta), pow(umaS.pow), gut(umaS.gut), wit(umaS.wit),
+    turfApt(umaS.turfApt), dirtApt(umaS.dirtApt),
+    sprintApt(umaS.sprintApt), mileApt(umaS.mileApt), mediumApt(umaS.mediumApt), longApt(umaS.longApt),
+    frontApt(umaS.frontApt), paceApt(umaS.paceApt), lateApt(umaS.lateApt), endApt(umaS.endApt)
+    {}
+
     ~Uma() = default;
 
     void setStats(int spd = -1, int sta = -1, int pow = -1, int gut = -1, int wit = -1)
@@ -43,8 +72,11 @@ public:
     array<int, 5> getStats()
     {
         double mod = getMoodMult();
-        return {this->spd * mod, this->sta * mod, this->pow * mod, 
-            this->gut * mod, this->wit * mod};
+        return {(int)(this->spd * mod), 
+            (int)(this->sta * mod), 
+            (int)(this->pow * mod), 
+            (int)(this->gut * mod), 
+            (int)(this->wit * mod)};
     }
 
     /**
@@ -128,6 +160,7 @@ public:
         case 3:
             return this->endApt;
         }
+        return ' ';
     }
 
     /*The umas mood

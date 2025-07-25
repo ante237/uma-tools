@@ -8,12 +8,12 @@ using namespace std;
 
 int main()
 {
-    Uma uma(2, 1, 1200, 900, 1200, 440, 1200,
+    Uma uma(2, 0, 100, 100, 100, 100, 100,
     's', 's', 
     's', 's', 's', 's', 
     'a', 'a', 'a', 'a');
 
-    Track track(0, 0, 2400, 400.0, 1600.0, 2000, 2400.0);
+    Track track(1, 0, 1000);
 
     //vector<double> vec = {};
     vector<double> vec = {0.015, 0.055, 0.015};
@@ -21,7 +21,8 @@ int main()
     int effStam = calcEffectiveStamina(uma, 3000, vec);
 
     cout << "Effective Stamina: " << effStam << "\n";
-
+    
+    */
     array<double, 5> accel = calcAccel(uma, track);
     cout << "Accel: [";
     for(auto a: accel)
@@ -49,7 +50,6 @@ int main()
 
     array<double, 2> hpDrain = calcHPDrain(uma, track);
     cout << "HP Drain\nWorst: " << hpDrain[0] << "\nOptimal: " << hpDrain[1] << "\n";
-    */
    
     array<int, 2> reqSta = calcReqStamina(uma, track, vec);
     cout << "Reqired Stamina\nWorst: " << reqSta[0] << "\nOptimal: " << reqSta[1] << "\n";

@@ -16,7 +16,7 @@ int calcStamNeeded(Uma& uma, int trackLen, vector<double> recovery)
     double ehp = calcEHP(uma, hp, recovery);
     double styleCoeff = getHPDrainCoeff(uma.getStyle());
 
-    
+    return 0;
 }
 
 /**
@@ -88,7 +88,6 @@ array<int, 2> calcReqStamina(Uma& uma, Track& track, vector<double> recovery)
     double styleMod = getHPDrainCoeff(style);
 
     array<double, 2> hpDrain = calcHPDrain(uma, track);
-
     double procProb = calcSkillProb(uma);
     double totalRecovery = 0;
 
@@ -101,8 +100,8 @@ array<int, 2> calcReqStamina(Uma& uma, Track& track, vector<double> recovery)
     double optimalDrain = hpDrain[1] * (1 - totalRecovery);
 
     return {
-        (worstDrain - track.length) / (0.8 * styleMod),
-        (optimalDrain - track.length) / (0.8 * styleMod)
+        (int)((worstDrain - track.length) / (0.8 * styleMod)),
+        (int)((optimalDrain - track.length) / (0.8 * styleMod))
     };
 }
 
@@ -111,7 +110,6 @@ array<double, 2> calcHPDrain(Uma& uma, Track& track)
     array<int, 5> stats = uma.getStats();
     double spurtMod = 1 + (200.0 / sqrt(600.0 * stats[3]));
     double surfaceDrainMod = getSurfaceHPDrainMod(track.surface, track.condition);
-
     array<double, 5> targetSpeeds = calcTargetSpeed(uma, track);
     array<double, 5> accels = calcAccel(uma, track);
     array<array<double, 2>, 6> durations = calcDurations(uma, track, targetSpeeds, accels);
@@ -121,6 +119,7 @@ array<double, 2> calcHPDrain(Uma& uma, Track& track)
     double startSpeed = min(targetSpeeds[0], 3 + accels[0] * durations[0][0]);
     double drain = 0;
 
+    
     for(int i = 1; i < 3; i++)
     {
         //Quadradic motion (accel)
@@ -133,7 +132,7 @@ array<double, 2> calcHPDrain(Uma& uma, Track& track)
         else
         {
             drain = 20 * pow(targetSpeeds[i] - baseSpeed  + 12, 2) / 144 * durations[i][0];
-            baseConsumption += drain;
+            baseConsumption += drain;   
         }
         //Linear motion
         drain = 20 * pow(targetSpeeds[i] - baseSpeed  + 12, 2) / 144 * durations[i][1];
@@ -451,6 +450,7 @@ array<double, 5> calcAccel(Uma& uma, Track& track)
     {
         double styleAccelMod = getStyleAcccelCoeff(style, i);
         double accel = 0.0006 * sqrt(500 * pow) * styleAccelMod * distAccelMod * turfAptMod;
+        //cout << "Debug: " << pow << "\n";
         if(i == 0)
             ret[0] = 24 + accel;
         ret[i + 1] = accel;

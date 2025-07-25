@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Uma tools</title>
+</head>
+<body>
+  <h1>Stamina calculator</h1>
+
+    <form id="umaStats">
+        <h3>Uma:</h3>
+        <div id="stats">
+            <div id="misc">
+                    <label>
+                        Mood:
+                        <select id="mood" name="mood">
+                            <option value=4>Great</option>
+                            <option value=3>Good</option>
+                            <option value=2 selected>Normal</option>
+                            <option value=1>Bad</option>
+                            <option value=0>Awful</option>
+                        </select>
+                    </label>
+                    <label>
+                        Current Style:
+                        <select id="style" name="style">
+                            <option value=0 selected>Front Runner</option>
+                            <option value=1>Pace Chaser</option>
+                            <option value=2>Late Surger</option>
+                            <option value=3>End Closer</option>
+                        </select>
+                    </label>
+                </div>
+            <div id="stats">
+                <label>
+                    Speed:
+                    <input type="number" id="spd" name="spd" value="100" required/>
+                </label>
+                <label>
+                    Stamina:
+                    <input type="number" id="sta" name="sta" value="100" required/>
+                </label>
+                <label>
+                    Power:
+                    <input type="number" id="pow" name="pow" value="100" required/>
+                </label>
+                <label>
+                    Guts:
+                    <input type="number" id="gut" name="gut" value="100" required/>
+                </label>
+                <label>
+                    Wit:
+                    <input type="number" id="wit" name="wit" value="100" required/>
+                </label>
+            </div> <!--Stats-->
+            <div id="aptitudes">
+                <div id="surface">
+                    <label>
+                        Turf:
+                        <select id="turf" name="turf">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Dirt:
+                        <select id="dirt" name="dirt">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="styles">
+                    <label>
+                        Front runner:
+                        <select id="front" name="front">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Pace Chaser:
+                        <select id="pace" name="pace">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Late Surger:
+                        <select id="late" name="late">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        End Closer:
+                        <select id="end" name="end">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                </div> <!--Styles-->
+                <div id="distance">
+                    <label>
+                        Sprint:
+                        <select id="sprint" name="sprint">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Mile:
+                        <select id="mile" name="mile">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Medium:
+                        <select id="medium" name="medium">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                    <label>
+                        Long:
+                        <select id="long" name="long">
+                            <option value="s">S</option>
+                            <option value="a" selected>A</option>
+                            <option value="b">B</option>
+                            <option value="c">C</option>
+                            <option value="d">D</option>
+                            <option value="e">E</option>
+                            <option value="f">F</option>
+                            <option value="g">G</option>
+                        </select>
+                    </label>
+                </div> <!--Distances-->
+            </div> <!--Apptitudes-->
+        </div> <!--stats-->
+        <div id="track">
+            <h3>Track:</h3>
+            <label>
+                Surface:
+                <select id="suface" name="surface">
+                    <option value=0 selected>Turf</option>
+                    <option value=1>Dirt</option>
+                </select>
+            </label>
+            <label>
+                Condition:
+                <select id="condition" name="condition">
+                    <option value=0 selected>Firm</option>
+                    <option value=1>Good</option>
+                    <option value=2>Soft</option>
+                    <option value=3>Heavy</option>
+                </select>
+            </label>
+            <label>
+                Length:
+                <select id="length" name="length">
+                    <option value=1000>1000</option>
+                    <option value=1200 selected>1200</option>
+                    <option value=1400>1400</option>
+                    <option value=1500>1500</option>
+                    <option value=1600>1600</option>
+                    <option value=1800>1800</option>
+                    <option value=2000>2000</option>
+                    <option value=2200>2200</option>
+                    <option value=2300>2300</option>
+                    <option value=2400>2400</option>
+                    <option value=2500>2500</option>
+                    <option value=2600>2600</option>
+                    <option value=3000>3000</option>
+                    <option value=3200>3200</option>
+                    <option value=3400>3400</option>
+                    <option value=3600>3600</option>
+                </select>
+            </label>
+        </div>
+        <button type="submit">Calculate</button>
+    </form>
+
+    <div id="skillSelection">
+        <input type="text" id="filter" placeholder="Filter skills...">
+        Current Skills:
+        <div id="selectedSkills">
+
+        </div>
+        Available Skills:
+        <div id="unselectedSkills">
+
+        </div>
+    </div>
+
+  <div id="result"></div>
+  <script type="module">
+    import {calculateStamina} from './func.js';
+
+    let selectedSkills = {};
+    let unselectedSkills = {};
+
+    const unselectedList = document.getElementById("unselectedSkills");
+    const selectedList = document.getElementById("selectedSkills");
+    const form = document.getElementById("umaStats");
+    const resDiv = document.getElementById('result');
+    const filterInput = document.getElementById("filter");
+
+    function updateSelectedSkill(key, value, checked) {
+        if (checked) {
+            //If skill is not selected
+            if (!selectedSkills[key]) {
+                const other = value["upgrades_from"] || value["upgrades_to"];
+                console.log(other);
+                console.log(selectedSkills[other]);
+                if (other && selectedSkills[other]) {
+                    unselectedSkills[other] = selectedSkills[other];
+                    delete selectedSkills[other];
+                    console.log(unselectedSkills[other]);
+                    const otherBox = document.getElementById(`checkbox-${other}`);
+                    if (otherBox) otherBox.checked = false;
+                }
+                selectedSkills[key] = value;
+                delete unselectedSkills[key];
+            }
+            //If skill is already selected
+            
+        } else {
+            // Unchecking: move back to unselected
+            if (selectedSkills[key]) {
+                unselectedSkills[key] = selectedSkills[key];
+                delete selectedSkills[key];
+            }
+        }
+    }
+
+    function createSkillListContent(skills, div)
+    {
+        div.innerHTML = '';
+        Object.entries(skills).forEach(([key, value]) => {
+            const label = document.createElement('label');
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = key;
+            checkbox.id = `checkbox-${key}`;
+            checkbox.checked = key in selectedSkills;
+
+            checkbox.addEventListener('change', (event) => {
+                updateSelectedSkill(key, value, event.target.checked);
+                console.log(selectedSkills);
+                renderAllSkillLists();
+            });
+
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(' ' + key));
+            div.appendChild(label);
+            div.appendChild(document.createElement('br'));
+        });
+    }
+
+    function renderAllSkillLists() {
+        const filter = filterInput.value.toLowerCase();
+        console.log(filter);
+
+        const filtered = Object.fromEntries(
+            Object.entries(unselectedSkills)
+            .filter(([key, value]) => key.toLowerCase().includes(filter.toLowerCase()))
+            .sort(([keyA], [keyB]) => keyA.localeCompare(keyB)));
+        createSkillListContent(filtered, document.getElementById("unselectedSkills"));
+        createSkillListContent(selectedSkills, document.getElementById("selectedSkills"));
+    }
+    
+    fetch('http://localhost:8000/data/skills.json')
+        .then(res => res.json())
+        .then(data => {
+            unselectedSkills = data;
+            //console.log(skillData);
+            renderAllSkillLists();
+        });
+
+
+    filterInput.addEventListener("input", () => {
+        renderAllSkillLists();
+    });
+    
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        let recovery = []
+
+        Object.entries(selectedSkills).forEach(([key, value]) => {
+            if(value["skill"]["active"]["stamina_recovery"])
+            {
+                recovery.push(Number(value["skill"]["active"]["stamina_recovery"]));
+            }
+        });
+
+        const formData = new FormData(form);
+        const uma = {
+            mood: Number(formData.get("mood")),
+            style: Number(formData.get("style")),
+            spd: Number(formData.get("spd")),
+            sta: Number(formData.get("sta")),
+            pow: Number(formData.get("pow")),
+            gut: Number(formData.get("gut")),
+            wit: Number(formData.get("wit")),
+            turf: formData.get("turf"),
+            dirt: formData.get("dirt"),
+            front: formData.get("front"),
+            pace: formData.get("pace"),
+            late: formData.get("late"),
+            end: formData.get("end"),
+            sprint: formData.get("sprint"),
+            mile: formData.get("mile"),
+            medium: formData.get("medium"),
+            long: formData.get("long")
+        };
+
+        const track = {
+            surface: Number(formData.get("surface")),
+            condition: Number(formData.get("condition")),
+            length: Number(formData.get("length"))
+        };
+
+        console.log(uma);
+        console.log(track);
+        console.log(recovery);
+        
+       const {staminaWorst, staminaOptimal} = await calculateStamina(uma, track, recovery);
+       
+       resDiv.textContent = `Stamina required: Worst: ${staminaWorst}\nOptimal: ${staminaOptimal}`;
+    });
+  </script>
+</body>
+</html>

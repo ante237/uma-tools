@@ -323,7 +323,7 @@
             }
         }
     },
-    "fukushima": {
+    "fukushima_racecourse_2": {
         "skill_points": 110,
         "eval_points": 174,
         "upgrades_from": "fukushima-racecourse_1",
@@ -5433,7 +5433,7 @@
             "active": {
                 "duration": 3.0,
                 "debuff": {
-                    "visibility_up": -,
+                    "visibility_up": -5,
                     "target": "behind"
                 }
             },
@@ -6508,6 +6508,5 @@
                 }
             }
         }
-    },
-    
+    }
 }
