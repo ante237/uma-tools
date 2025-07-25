@@ -324,7 +324,7 @@
         createSkillListContent(selectedSkills, document.getElementById("selectedSkills"));
     }
     
-    fetch('http://localhost:8000/data/skills.json')
+    fetch('./data/skills.json')
         .then(res => res.json())
         .then(data => {
             unselectedSkills = data;
