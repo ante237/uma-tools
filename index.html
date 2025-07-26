@@ -257,7 +257,7 @@
 
   <div id="result"></div>
   <script type="module">
-    import {calculateStamina} from './func.js';
+    import {calculateStamina, distClassification, cmpCond} from './func.js';
 
     const hostname = window.location.hostname;
     const dataDir = ((hostname === 'localhost' || hostname === '127.0.0.1') ? "./data/" : "/uma-tools/data/");
@@ -275,7 +275,7 @@
         if (checked) {
             //If skill is not selected
             if (!selectedSkills[key]) {
-                const other = value["upgrades_from"] || value["upgrades_to"];
+                const other = value.upgrades_from || value.upgrades_to;
                 console.log(other);
                 console.log(selectedSkills[other]);
                 if (other && selectedSkills[other]) {
@@ -357,16 +357,6 @@
     
     form.addEventListener("submit", async (event) => {
         event.preventDefault();
-
-        let recovery = []
-
-        Object.entries(selectedSkills).forEach(([key, value]) => {
-            if(value["skill"]["active"]["stamina_recovery"])
-            {
-                recovery.push(Number(value["skill"]["active"]["stamina_recovery"]));
-            }
-        });
-
         const formData = new FormData(form);
         const uma = {
             mood: Number(formData.get("mood")),
@@ -393,6 +383,26 @@
             condition: Number(formData.get("condition")),
             length: Number(formData.get("length"))
         };
+
+        let recovery = []
+
+        for (const [key, value] of Object.entries(selectedSkills)){
+            if(!value.skill?.activate?.stamina_recovery)
+            {
+                const cond = value.skill.conditions;
+                const styleCond = cond.running_style;
+                const distCond = cond.distance_type;
+
+                const trackClass = distClassification(track.length);
+
+                console.log(cond);
+
+                if(styleCond && !cmpCond(styleCond, uma.style + 1)) continue;
+                if(distCond && !cmpCond(distCond, trackClass + 1)) continue;
+                
+                recovery.push(Number(value.skill.active.stamina_recovery));
+            }
+        }
 
         console.log(uma);
         console.log(track);
