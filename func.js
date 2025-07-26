@@ -65,3 +65,33 @@ export async function calculateStamina(uma, track, recovery)
     return {staminaWorst, staminaOptimal}
 }
 
+export function distClassification(length)
+{
+    if(length < 1500) return 0;
+    else if(length < 2000) return 1;
+    else if(length < 2500) return 2;
+    else return 3;
+}
+
+export function cmpCond(cond, value)
+{
+    const trgValue = cond.value;
+    const op = cond.operator;
+    switch(op)
+    {
+        case "==":
+            return value == trgValue;
+        case "<":
+            return value < trgValue;
+        case ">":
+            return value > trgValue;
+        case "<=":
+            return value <= trgValue;
+        case ">=":
+            return value >= trgValue;
+        case "!=":
+            return value != trgValue;
+        default:
+            return false;
+    }
+}
