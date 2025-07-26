@@ -1,0 +1,204 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  max-width: 1500px;
+  height: 700px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+form#umaStats {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  max-width: 900px;
+}
+
+#uma {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#surface, #styles, #distance {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 120%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+ #stats {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+#misc {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#aptitudes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+#aptitudes > div {
+  margin-bottom: 0.5rem;
+}
+
+/* Smaller font for select inside aptitude groups */
+#aptitudes select {
+  min-width: 80px;
+}
+
+/* Track section styling */
+#track {
+  background: #eef1f5;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+#track label {
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Button styling */
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Skill selection section */
+#skillSelection {
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+}
+
+#skillSelection input#filter {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#displaySkills {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+#selectedSkills,
+#unselectedSkills {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.skill-box {
+  flex: 1;
+  min-width: 200px;
+  max-width: 48%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.skill-box h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.skill-item {
+  margin-bottom: 0.5rem;
+}
+
+.skill-label {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+}
+
+.skill-checkbox {
+  display: none;
+}
+
+/* Result area */
+#result {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #e9ffe9;
+  border: 1px solid #b6d7a8;
+  border-radius: 6px;
+  min-height: 50px;
+}
